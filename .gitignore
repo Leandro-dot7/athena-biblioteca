@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+# Guias e arquivos locais de apoio da equipe
+/GUIA_CONTRIBUICOES_ATHENA.md
+/docs/intellij/
+/docs/superpowers/
+/.superpowers/
