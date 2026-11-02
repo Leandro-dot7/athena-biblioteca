@@ -1,4 +1,4 @@
-package service;
+package br.edu.athena.biblioteca.service;
 import br.edu.athena.biblioteca.model.Livro;
 import br.edu.athena.biblioteca.repository.LivroRepository;
 import org.springframework.stereotype.Service;
