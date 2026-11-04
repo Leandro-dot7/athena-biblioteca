@@ -5,10 +5,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 @Repository
 public class LivroRepository {
-    private final List<Livro> livros = new ArrayList<>();
+    private final List<Livro> livros = new CopyOnWriteArrayList<>();
 
     public Livro salvar(Livro livro) {
         livros.add(livro);
